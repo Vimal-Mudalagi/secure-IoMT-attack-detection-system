@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+}
+
+/* layout */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* heading */
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* buttons */
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* card */
+.card {
+    background: #1e293b;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    color: #94a3b8;
+    border-bottom: 1px solid #334155;
+}
+
+td {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #334155;
+}
+
+/* status colors */
+.valid {
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.tampered {
+    color: #ef4444;
+    font-weight: 600;
+}
+
+.replay {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.error {
+    color: #facc15;
+}
+
+/* chart */
+.chart-card {
+    padding: 20px;
+}
+
+canvas {
+    max-height: 250px;   /* 🔥 fix oversized chart */
+}

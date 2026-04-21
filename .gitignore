@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+iomt.db
+device_private.pem
+broker.md
+phases.md
+subscriber.py
+publisher.py
